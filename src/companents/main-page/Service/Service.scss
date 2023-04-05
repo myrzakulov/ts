@@ -1,0 +1,24 @@
+#service {
+  .service {
+    &-block {
+      border-radius: 20px;
+      background: #000;
+      img {
+        padding: 10px 10px;
+        border-radius: 20px;
+        background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+      }
+      button {
+        margin-left: 7rem;
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+      }
+      &_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
